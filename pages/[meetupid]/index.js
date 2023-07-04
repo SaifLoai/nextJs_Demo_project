@@ -13,6 +13,8 @@ function detailsMeetupPage(props) {
             <MeetupDetails
                 image={props.meetupData.image}
                 title={props.meetupData.title}
+                description={props.meetupData.description}
+                address={props.meetupData.address}
             />
         </Fragment>
     );
